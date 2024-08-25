@@ -1,0 +1,129 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background: url('pattern.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+p {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+}
+
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7); 
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2em;
+}
+
+section p {
+    font-size: 1.2em;
+}
+
+
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.card {
+    background-color: #e6f3ac;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3d3e3f;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
