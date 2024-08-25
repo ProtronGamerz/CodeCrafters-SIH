@@ -1,4 +1,4 @@
-=>Problem Statement :
+=>Problem Statement:
 
 Background: Visitors to museums often face several significant challenges due to manual ticket booking systems. One prominent issue is the inefficiency and time consumption associated with the process.
 Long queues are common, especially during peak hours, weekends, or special exhibitions, leading to frustration and impatience among visitors.
